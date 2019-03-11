@@ -8,6 +8,11 @@
             <StackLayout>
                 <Button x:Name="btnActivityIndicator" Text="Activity Indicator" Clicked="btnActivityIndicator_Click" />
                 <Button x:Name="btnProgressBar" Text="Progress Bar" Clicked="btnProgressBar_Click" />
+                <Button x:Name="btnBoxViewPage" Text="Box View" Clicked="btnBoxViewPage_Click" />
+                <Button x:Name="btnLabelPage" Text="Label" Clicked="btnLabelPage_Click" />
+                <Button x:Name="btnButtonPage" Text="Button" Clicked="btnButtonPage_Click" />
+                <Button x:Name="btnEntryEditorPage" Text="Entry Editor" Clicked="btnEntryEditorPage_Click" />
+                
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
