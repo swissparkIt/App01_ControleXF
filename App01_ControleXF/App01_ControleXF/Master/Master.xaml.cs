@@ -53,6 +53,23 @@ namespace App01_ControleXF.Master
             Detail = new EntryEditorPage();
             IsPresented = false;
         }
-        
+
+        private void btnDatePickerPage_Click(object sender, EventArgs args)
+        {
+            Detail = new DatePickerPage();
+            IsPresented = false;
+        }
+
+        private void btnTimePickerPage_Click(object sender, EventArgs args)
+        {
+            Detail = new TimePickerPage();
+            IsPresented = false;
+        }
+
+        private void btnPickerPage_Click(object sender, EventArgs e)
+        {
+            Detail = new PickerPage();
+            IsPresented = false;
+        }
     }
 }

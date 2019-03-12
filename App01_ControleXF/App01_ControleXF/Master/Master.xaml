@@ -12,7 +12,13 @@
                 <Button x:Name="btnLabelPage" Text="Label" Clicked="btnLabelPage_Click" />
                 <Button x:Name="btnButtonPage" Text="Button" Clicked="btnButtonPage_Click" />
                 <Button x:Name="btnEntryEditorPage" Text="Entry Editor" Clicked="btnEntryEditorPage_Click" />
-                
+                <Button x:Name="btnDatePickerPage" Text="Date Picker" Clicked="btnDatePickerPage_Click" />
+                <Button x:Name="btnTimePickerPage" Text="Time Picker" Clicked="btnTimePickerPage_Click" />
+                <Button x:Name="btnPickerPage" Text="Picker" Clicked="btnPickerPage_Click" />
+
+
+
+
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Master>
