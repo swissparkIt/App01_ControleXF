@@ -15,7 +15,10 @@
                 <Button x:Name="btnDatePickerPage" Text="Date Picker" Clicked="btnDatePickerPage_Click" />
                 <Button x:Name="btnTimePickerPage" Text="Time Picker" Clicked="btnTimePickerPage_Click" />
                 <Button x:Name="btnPickerPage" Text="Picker" Clicked="btnPickerPage_Click" />
+                <Button x:Name="btnSearchBarPage" Text="Search Bar" Clicked="btnSearchBarPage_Click" />
+                <Button x:Name="btnSliderStepperPage" Text="Slider/Stepper" Clicked="SliderStepperPage_Click" />
 
+                
 
 
 

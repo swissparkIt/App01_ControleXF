@@ -71,5 +71,19 @@ namespace App01_ControleXF.Master
             Detail = new PickerPage();
             IsPresented = false;
         }
+
+        private void btnSearchBarPage_Click(object sender, EventArgs e)
+        {
+            Detail = new SearchBarPage();
+            IsPresented = false;
+        }
+
+        private void SliderStepperPage_Click(object sender, EventArgs e)
+        {
+            Detail = new SliderStepperPage();
+            IsPresented = false;
+        }
+
+
     }
 }
