@@ -84,6 +84,10 @@ namespace App01_ControleXF.Master
             IsPresented = false;
         }
 
-
+        private void btnImagePage_Click(object sender, EventArgs e)
+        {
+            Detail = new ImagePage();
+            IsPresented = false;
+        }
     }
 }

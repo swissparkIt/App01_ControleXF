@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App01_ControleXF.Controles.ImagePage">
+    <ContentPage.Content>
+        <StackLayout x:Name="Container">
+            <Image  x:Name="img1"
+                    Source="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Volkswagen_Logo_till_1995.svg/768px-Volkswagen_Logo_till_1995.svg.png"
+                    Aspect="Fill"
+                    VerticalOptions="FillAndExpand"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

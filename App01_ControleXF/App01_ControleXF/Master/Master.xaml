@@ -5,24 +5,22 @@
              x:Class="App01_ControleXF.Master.Master">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            <StackLayout>
-                <Button x:Name="btnActivityIndicator" Text="Activity Indicator" Clicked="btnActivityIndicator_Click" />
-                <Button x:Name="btnProgressBar" Text="Progress Bar" Clicked="btnProgressBar_Click" />
-                <Button x:Name="btnBoxViewPage" Text="Box View" Clicked="btnBoxViewPage_Click" />
-                <Button x:Name="btnLabelPage" Text="Label" Clicked="btnLabelPage_Click" />
-                <Button x:Name="btnButtonPage" Text="Button" Clicked="btnButtonPage_Click" />
-                <Button x:Name="btnEntryEditorPage" Text="Entry Editor" Clicked="btnEntryEditorPage_Click" />
-                <Button x:Name="btnDatePickerPage" Text="Date Picker" Clicked="btnDatePickerPage_Click" />
-                <Button x:Name="btnTimePickerPage" Text="Time Picker" Clicked="btnTimePickerPage_Click" />
-                <Button x:Name="btnPickerPage" Text="Picker" Clicked="btnPickerPage_Click" />
-                <Button x:Name="btnSearchBarPage" Text="Search Bar" Clicked="btnSearchBarPage_Click" />
-                <Button x:Name="btnSliderStepperPage" Text="Slider/Stepper" Clicked="SliderStepperPage_Click" />
-
-                
-
-
-
-            </StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Button x:Name="btnActivityIndicator" Text="Activity Indicator" Clicked="btnActivityIndicator_Click" />
+                    <Button x:Name="btnProgressBar" Text="Progress Bar" Clicked="btnProgressBar_Click" />
+                    <Button x:Name="btnBoxViewPage" Text="Box View" Clicked="btnBoxViewPage_Click" />
+                    <Button x:Name="btnLabelPage" Text="Label" Clicked="btnLabelPage_Click" />
+                    <Button x:Name="btnButtonPage" Text="Button" Clicked="btnButtonPage_Click" />
+                    <Button x:Name="btnEntryEditorPage" Text="Entry Editor" Clicked="btnEntryEditorPage_Click" />
+                    <Button x:Name="btnDatePickerPage" Text="Date Picker" Clicked="btnDatePickerPage_Click" />
+                    <Button x:Name="btnTimePickerPage" Text="Time Picker" Clicked="btnTimePickerPage_Click" />
+                    <Button x:Name="btnPickerPage" Text="Picker" Clicked="btnPickerPage_Click" />
+                    <Button x:Name="btnSearchBarPage" Text="Search Bar" Clicked="btnSearchBarPage_Click" />
+                    <Button x:Name="btnSliderStepperPage" Text="Slider/Stepper" Clicked="SliderStepperPage_Click" />
+                    <Button x:Name="btnImagePage" Text="Image" Clicked="btnImagePage_Click" />
+                </StackLayout>
+            </ScrollView>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
