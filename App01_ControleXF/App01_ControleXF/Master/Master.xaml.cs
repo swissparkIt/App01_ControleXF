@@ -95,5 +95,11 @@ namespace App01_ControleXF.Master
             Detail = new ImagePage();
             IsPresented = false;
         }
+
+        private void btnListViewPage_Click(object sender, EventArgs e)
+        {
+            Detail = new ListViewPage();
+            IsPresented = false;
+        }
     }
 }

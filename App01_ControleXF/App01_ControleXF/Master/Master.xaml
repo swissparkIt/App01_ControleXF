@@ -20,6 +20,8 @@
                     <Button x:Name="btnSliderStepperPage" Text="Slider/Stepper" Clicked="SliderStepperPage_Click" />
                     <Button x:Name="btnSwitchPage" Text="Switch" Clicked="btnSwitchPage_Click" />
                     <Button x:Name="btnImagePage" Text="Image" Clicked="btnImagePage_Click" />
+                    <Button x:Name="btnListViewPage" Text="ListView" Clicked="btnListViewPage_Click" />
+                    
                 </StackLayout>
             </ScrollView>
         </ContentPage>
