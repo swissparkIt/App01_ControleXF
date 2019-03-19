@@ -21,16 +21,17 @@
                     <Button x:Name="btnSwitchPage" Text="Switch" Clicked="btnSwitchPage_Click" />
                     <Button x:Name="btnImagePage" Text="Image" Clicked="btnImagePage_Click" />
                     <Button x:Name="btnListViewPage" Text="ListView" Clicked="btnListViewPage_Click" />
-                    
+                    <Button x:Name="btnTableViewPage" Text="TableViewPage" Clicked="btnTableViewPage_Click" />
+                    <Button x:Name="btnWebViewPage" Text="WebViewPage" Clicked="btnWebViewPage_Click" />
                 </StackLayout>
             </ScrollView>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
-        <ContentPage>
-            <!--
-            <page:MainPage/>
-            </page:MainPage>-->
-        </ContentPage>
+        <NavigationPage>
+            <x:Arguments>
+                <page:MainPage/>
+            </x:Arguments>
+        </NavigationPage>
     </MasterDetailPage.Detail>
 </MasterDetailPage>

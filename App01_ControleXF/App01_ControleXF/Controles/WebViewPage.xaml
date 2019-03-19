@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App01_ControleXF.Controles.WebViewPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Entry x:Name="txtEndereco" />
+                <Button x:Name="btnIr" Text="Ir" Clicked="btnIr_Click" />
+                <Button x:Name="btnVoltar" Text="Voltar" Clicked="btnVoltar_Click" />
+                <Button x:Name="btnProximo" Text="Proximo" Clicked="btnProximo_Click" />
+            </StackLayout>
+            <StackLayout>
+                <WebView 
+                    x:Name="Navegador" 
+                    Source=""
+                    Navigating="Navigating_Event"
+                    Navigated="Navigated_Event"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                    />
+            </StackLayout>
+            <Label x:Name="lblStatus" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
